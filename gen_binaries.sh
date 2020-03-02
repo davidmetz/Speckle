@@ -13,7 +13,8 @@ fi
 
 CONFIG=riscv
 CONFIGFILE=${CONFIG}.cfg
-RUN="spike pk -c "
+# RUN="spike pk "
+RUN="~/fesvr-zynq ~/pk -s"
 CMD_FILE=commands.txt
 INPUT_TYPE=test
 
