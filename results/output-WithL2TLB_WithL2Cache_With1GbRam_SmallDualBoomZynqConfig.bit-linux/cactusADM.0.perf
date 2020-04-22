@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./cactusADM benchADM.par':
+
+         508500.04 msec task-clock                #    0.998 CPUs utilized          
+               902      context-switches          #    0.002 K/sec                  
+                22      cpu-migrations            #    0.000 K/sec                  
+              9706      page-faults               #    0.019 K/sec                  
+       25424991028      cycles                    #    0.050 GHz                    
+       11510627250      instructions              #    0.45  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     509.301844000 seconds time elapsed
+
+     505.783383000 seconds user
+       2.667833000 seconds sys
+
+

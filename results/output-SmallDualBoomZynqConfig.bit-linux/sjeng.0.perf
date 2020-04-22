@@ -1,0 +1,18 @@
+
+ Performance counter stats for './sjeng test.txt':
+
+        1071395.54 msec task-clock                #    0.999 CPUs utilized          
+              1694      context-switches          #    0.002 K/sec                  
+                59      cpu-migrations            #    0.000 K/sec                  
+             44667      page-faults               #    0.042 K/sec                  
+       53570168172      cycles                    #    0.050 GHz                    
+       19788137765      instructions              #    0.37  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1072.768545000 seconds time elapsed
+
+    1061.713921000 seconds user
+       9.589251000 seconds sys
+
+

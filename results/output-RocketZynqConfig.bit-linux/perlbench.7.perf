@@ -1,0 +1,161 @@
+1: append.t child start at Thu Jan  1 00:01:20 1970
+1: append.t child exit at Thu Jan  1 00:01:20 1970
+2: args.t child start at Thu Jan  1 00:01:20 1970
+2: args.t child exit at Thu Jan  1 00:01:21 1970
+3: arith.t child start at Thu Jan  1 00:01:21 1970
+3: arith.t child exit at Thu Jan  1 00:01:21 1970
+4: array.t child start at Thu Jan  1 00:01:21 1970
+4: array.t child exit at Thu Jan  1 00:01:22 1970
+5: auto.t child start at Thu Jan  1 00:01:22 1970
+5: auto.t child exit at Thu Jan  1 00:01:23 1970
+6: base_cond.t child start at Thu Jan  1 00:01:23 1970
+6: base_cond.t child exit at Thu Jan  1 00:01:23 1970
+7: base_pat.t child start at Thu Jan  1 00:01:23 1970
+7: base_pat.t child exit at Thu Jan  1 00:01:23 1970
+8: base_term.t child start at Thu Jan  1 00:01:23 1970
+8: base_term.t child exit at Thu Jan  1 00:01:23 1970
+9: bless.t child start at Thu Jan  1 00:01:23 1970
+9: bless.t child exit at Thu Jan  1 00:01:24 1970
+10: bop.t child start at Thu Jan  1 00:01:24 1970
+10: bop.t child exit at Thu Jan  1 00:01:29 1970
+11: bproto.t child start at Thu Jan  1 00:01:29 1970
+11: bproto.t child exit at Thu Jan  1 00:01:29 1970
+12: chars.t child start at Thu Jan  1 00:01:29 1970
+12: chars.t child exit at Thu Jan  1 00:01:29 1970
+13: chop.t child start at Thu Jan  1 00:01:29 1970
+13: chop.t child exit at Thu Jan  1 00:01:30 1970
+14: cmdopt.t child start at Thu Jan  1 00:01:30 1970
+14: cmdopt.t child exit at Thu Jan  1 00:01:31 1970
+15: cmp.t child start at Thu Jan  1 00:01:31 1970
+15: cmp.t child exit at Thu Jan  1 00:01:33 1970
+16: comp_term.t child start at Thu Jan  1 00:01:33 1970
+16: comp_term.t child exit at Thu Jan  1 00:01:34 1970
+17: concat.t child start at Thu Jan  1 00:01:34 1970
+17: concat.t child exit at Thu Jan  1 00:01:34 1970
+18: context.t child start at Thu Jan  1 00:01:34 1970
+18: context.t child exit at Thu Jan  1 00:01:34 1970
+19: decl.t child start at Thu Jan  1 00:01:34 1970
+19: decl.t child exit at Thu Jan  1 00:01:34 1970
+20: defins.t child start at Thu Jan  1 00:01:34 1970
+20: defins.t child exit at Thu Jan  1 00:01:34 1970
+21: delete.t child start at Thu Jan  1 00:01:34 1970
+21: delete.t child exit at Thu Jan  1 00:01:35 1970
+22: die.t child start at Thu Jan  1 00:01:35 1970
+22: die.t child exit at Thu Jan  1 00:01:38 1970
+23: do.t child start at Thu Jan  1 00:01:38 1970
+23: do.t child exit at Thu Jan  1 00:01:38 1970
+24: each.t child start at Thu Jan  1 00:01:38 1970
+24: each.t child exit at Thu Jan  1 00:01:39 1970
+25: eval.t child start at Thu Jan  1 00:01:39 1970
+25: eval.t child exit at Thu Jan  1 00:01:41 1970
+26: exists_sub.t child start at Thu Jan  1 00:01:41 1970
+27: exp.t child start at Thu Jan  1 00:01:41 1970
+27: exp.t child exit at Thu Jan  1 00:01:41 1970
+28: fh.t child start at Thu Jan  1 00:01:41 1970
+28: fh.t child exit at Thu Jan  1 00:01:42 1970
+29: grep.t child start at Thu Jan  1 00:01:42 1970
+29: grep.t child exit at Thu Jan  1 00:01:42 1970
+30: hashwarn.t child start at Thu Jan  1 00:01:42 1970
+30: hashwarn.t child exit at Thu Jan  1 00:01:43 1970
+31: if.t child start at Thu Jan  1 00:01:43 1970
+31: if.t child exit at Thu Jan  1 00:01:43 1970
+32: inc.t child start at Thu Jan  1 00:01:43 1970
+32: inc.t child exit at Thu Jan  1 00:01:43 1970
+33: index.t child start at Thu Jan  1 00:01:43 1970
+33: index.t child exit at Thu Jan  1 00:01:44 1970
+34: int.t child start at Thu Jan  1 00:01:44 1970
+34: int.t child exit at Thu Jan  1 00:01:44 1970
+35: join.t child start at Thu Jan  1 00:01:44 1970
+35: join.t child exit at Thu Jan  1 00:01:44 1970
+36: length.t child start at Thu Jan  1 00:01:44 1970
+36: length.t child exit at Thu Jan  1 00:01:45 1970
+37: lex.t child start at Thu Jan  1 00:01:45 1970
+37: lex.t child exit at Thu Jan  1 00:01:45 1970
+38: list.t child start at Thu Jan  1 00:01:45 1970
+38: list.t child exit at Thu Jan  1 00:01:45 1970
+39: loopctl.t child start at Thu Jan  1 00:01:45 1970
+39: loopctl.t child exit at Thu Jan  1 00:01:46 1970
+40: lop.t child start at Thu Jan  1 00:01:46 1970
+40: lop.t child exit at Thu Jan  1 00:01:46 1970
+41: method.t child start at Thu Jan  1 00:01:46 1970
+41: method.t child exit at Thu Jan  1 00:01:48 1970
+42: my.t child start at Thu Jan  1 00:01:48 1970
+42: my.t child exit at Thu Jan  1 00:01:48 1970
+43: nothr5005.t child start at Thu Jan  1 00:01:48 1970
+43: nothr5005.t child exit at Thu Jan  1 00:01:48 1970
+44: oct.t child start at Thu Jan  1 00:01:48 1970
+44: oct.t child exit at Thu Jan  1 00:01:49 1970
+45: op_cond.t child start at Thu Jan  1 00:01:49 1970
+45: op_cond.t child exit at Thu Jan  1 00:01:49 1970
+46: op_pat.t child start at Thu Jan  1 00:01:49 1970
+46: op_pat.t child exit at Thu Jan  1 00:02:42 1970
+47: ord.t child start at Thu Jan  1 00:02:42 1970
+47: ord.t child exit at Thu Jan  1 00:02:42 1970
+48: override.t child start at Thu Jan  1 00:02:43 1970
+48: override.t child exit at Thu Jan  1 00:02:43 1970
+49: package.t child start at Thu Jan  1 00:02:43 1970
+49: package.t child exit at Thu Jan  1 00:02:43 1970
+50: pos.t child start at Thu Jan  1 00:02:43 1970
+50: pos.t child exit at Thu Jan  1 00:02:44 1970
+51: push.t child start at Thu Jan  1 00:02:44 1970
+51: push.t child exit at Thu Jan  1 00:02:44 1970
+52: quotemeta.t child start at Thu Jan  1 00:02:44 1970
+52: quotemeta.t child exit at Thu Jan  1 00:02:45 1970
+53: range.t child start at Thu Jan  1 00:02:45 1970
+53: range.t child exit at Thu Jan  1 00:02:46 1970
+54: recurse.t child start at Thu Jan  1 00:02:46 1970
+54: recurse.t child exit at Thu Jan  1 00:02:57 1970
+55: regexp.t child start at Thu Jan  1 00:02:57 1970
+55: regexp.t child exit at Thu Jan  1 00:03:14 1970
+56: regexp_noamp.t child start at Thu Jan  1 00:03:14 1970
+56: regexp_noamp.t child exit at Thu Jan  1 00:03:31 1970
+57: repeat.t child start at Thu Jan  1 00:03:31 1970
+57: repeat.t child exit at Thu Jan  1 00:03:32 1970
+58: reverse.t child start at Thu Jan  1 00:03:32 1970
+58: reverse.t child exit at Thu Jan  1 00:03:32 1970
+59: rs.t child start at Thu Jan  1 00:03:32 1970
+59: rs.t child exit at Thu Jan  1 00:03:32 1970
+60: sleep.t child start at Thu Jan  1 00:03:32 1970
+60: sleep.t child exit at Thu Jan  1 00:03:35 1970
+61: sort.t child start at Thu Jan  1 00:03:35 1970
+61: sort.t child exit at Thu Jan  1 00:03:36 1970
+62: splice.t child start at Thu Jan  1 00:03:36 1970
+62: splice.t child exit at Thu Jan  1 00:03:37 1970
+63: study.t child start at Thu Jan  1 00:03:37 1970
+63: study.t child exit at Thu Jan  1 00:03:37 1970
+64: sub_lval.t child start at Thu Jan  1 00:03:37 1970
+64: sub_lval.t child exit at Thu Jan  1 00:03:38 1970
+65: subst.t child start at Thu Jan  1 00:03:38 1970
+65: subst.t child exit at Thu Jan  1 00:03:41 1970
+66: subst_amp.t child start at Thu Jan  1 00:03:41 1970
+66: subst_amp.t child exit at Thu Jan  1 00:03:41 1970
+67: subst_wamp.t child start at Thu Jan  1 00:03:41 1970
+67: subst_wamp.t child exit at Thu Jan  1 00:03:44 1970
+68: tr.t child start at Thu Jan  1 00:03:44 1970
+68: tr.t child exit at Thu Jan  1 00:03:47 1970
+69: undef.t child start at Thu Jan  1 00:03:47 1970
+69: undef.t child exit at Thu Jan  1 00:03:47 1970
+70: unshift.t child start at Thu Jan  1 00:03:47 1970
+70: unshift.t child exit at Thu Jan  1 00:03:47 1970
+71: vec.t child start at Thu Jan  1 00:03:47 1970
+71: vec.t child exit at Thu Jan  1 00:03:47 1970
+72: wantarray.t child start at Thu Jan  1 00:03:47 1970
+72: wantarray.t child exit at Thu Jan  1 00:03:47 1970
+
+ Performance counter stats for './perlbench -I. -I./lib test.pl':
+
+         143345.91 msec task-clock                #    0.969 CPUs utilized          
+              1591      context-switches          #    0.011 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             19065      page-faults               #    0.133 K/sec                  
+        7166607573      cycles                    #    0.050 GHz                    
+        2214504461      instructions              #    0.31  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     147.902801000 seconds time elapsed
+
+     133.037778000 seconds user
+      10.309732000 seconds sys
+
+

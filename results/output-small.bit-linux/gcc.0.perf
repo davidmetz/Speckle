@@ -1,0 +1,18 @@
+
+ Performance counter stats for './gcc cccp.in -o cccp.s':
+
+         349963.05 msec task-clock                #    0.995 CPUs utilized          
+              1254      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              4370      page-faults               #    0.012 K/sec                  
+       17498304760      cycles                    #    0.050 GHz                    
+        5623791371      instructions              #    0.32  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     351.710200000 seconds time elapsed
+
+     347.767578000 seconds user
+       2.160493000 seconds sys
+
+

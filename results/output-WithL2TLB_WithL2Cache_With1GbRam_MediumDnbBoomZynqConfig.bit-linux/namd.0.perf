@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./namd --input namd.input --iterations 1 --output namd.out':
+
+        1839843.72 msec task-clock                #    0.997 CPUs utilized          
+              5289      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             11716      page-faults               #    0.006 K/sec                  
+       91993150633      cycles                    #    0.050 GHz                    
+       49720398085      instructions              #    0.54  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1844.518271000 seconds time elapsed
+
+    1834.647989000 seconds user
+       4.936217000 seconds sys
+
+

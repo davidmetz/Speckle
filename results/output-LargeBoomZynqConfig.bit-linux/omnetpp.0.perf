@@ -1,0 +1,18 @@
+
+ Performance counter stats for './omnetpp omnetpp.ini':
+
+          79445.28 msec task-clock                #    0.994 CPUs utilized          
+               370      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              1886      page-faults               #    0.024 K/sec                  
+        3972309859      cycles                    #    0.050 GHz                    
+        1832243595      instructions              #    0.46  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      79.900386000 seconds time elapsed
+
+      78.543140000 seconds user
+       0.921315000 seconds sys
+
+

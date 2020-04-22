@@ -1,0 +1,18 @@
+
+ Performance counter stats for './hmmer --fixed 0 --mean 325 --num 45000 --sd 200 --seed 0 bombesin.hmm':
+
+         700379.25 msec task-clock                #    0.998 CPUs utilized          
+              1906      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               167      page-faults               #    0.000 K/sec                  
+       35018632750      cycles                    #    0.050 GHz                    
+       20283672758      instructions              #    0.58  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     702.043209000 seconds time elapsed
+
+     698.621352000 seconds user
+       1.644124000 seconds sys
+
+

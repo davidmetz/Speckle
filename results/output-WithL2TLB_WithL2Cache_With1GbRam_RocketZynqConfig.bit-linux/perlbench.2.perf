@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib makerand.pl':
+
+          10181.39 msec task-clock                #    0.982 CPUs utilized          
+               125      context-switches          #    0.012 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               248      page-faults               #    0.024 K/sec                  
+         509091779      cycles                    #    0.050 GHz                    
+         315568230      instructions              #    0.62  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      10.365411000 seconds time elapsed
+
+      10.074730000 seconds user
+       0.120594000 seconds sys
+
+

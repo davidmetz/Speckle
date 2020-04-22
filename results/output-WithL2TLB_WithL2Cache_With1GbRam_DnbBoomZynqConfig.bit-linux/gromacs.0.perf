@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./gromacs -silent -deffnm gromacs -nice 0':
+
+         177978.40 msec task-clock                #    0.994 CPUs utilized          
+               795      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              3941      page-faults               #    0.022 K/sec                  
+        8899265398      cycles                    #    0.050 GHz                    
+        3879774117      instructions              #    0.44  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     179.077884000 seconds time elapsed
+
+     175.891449000 seconds user
+       2.132081000 seconds sys
+
+

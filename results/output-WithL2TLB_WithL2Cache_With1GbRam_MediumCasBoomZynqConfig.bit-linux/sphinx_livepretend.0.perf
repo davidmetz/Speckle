@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./sphinx_livepretend ctlfile . args.an4':
+
+         316589.42 msec task-clock                #    0.988 CPUs utilized          
+              2610      context-switches          #    0.008 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             11209      page-faults               #    0.035 K/sec                  
+       15830149250      cycles                    #    0.050 GHz                    
+        7542218838      instructions              #    0.48  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     320.357721000 seconds time elapsed
+
+     305.477260000 seconds user
+      11.325679000 seconds sys
+
+

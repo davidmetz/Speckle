@@ -1,0 +1,18 @@
+
+ Performance counter stats for './h264ref -d foreman_test_encoder_baseline.cfg':
+
+        3440646.13 msec task-clock                #    0.998 CPUs utilized          
+              9345      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              8995      page-faults               #    0.003 K/sec                  
+      172031178030      cycles                    #    0.050 GHz                    
+      111871337918      instructions              #    0.65  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    3448.329402000 seconds time elapsed
+
+    3430.594057000 seconds user
+       9.386008000 seconds sys
+
+

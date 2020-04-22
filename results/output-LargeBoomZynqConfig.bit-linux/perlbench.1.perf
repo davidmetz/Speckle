@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib gv.pl':
+
+            544.74 msec task-clock                #    0.951 CPUs utilized          
+                14      context-switches          #    0.026 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               159      page-faults               #    0.292 K/sec                  
+          27232649      cycles                    #    0.050 GHz                    
+          10602881      instructions              #    0.39  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.572740000 seconds time elapsed
+
+       0.470510000 seconds user
+       0.090181000 seconds sys
+
+

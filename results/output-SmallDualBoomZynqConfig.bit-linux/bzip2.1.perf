@@ -1,0 +1,18 @@
+
+ Performance counter stats for './bzip2 dryer.jpg 2':
+
+         943726.22 msec task-clock                #    0.999 CPUs utilized          
+               971      context-switches          #    0.001 K/sec                  
+                21      cpu-migrations            #    0.000 K/sec                  
+              6624      page-faults               #    0.007 K/sec                  
+       47186464698      cycles                    #    0.050 GHz                    
+       23882167351      instructions              #    0.51  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     944.427395000 seconds time elapsed
+
+     942.072747000 seconds user
+       1.610790000 seconds sys
+
+

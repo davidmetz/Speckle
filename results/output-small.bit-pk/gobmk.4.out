@@ -1,0 +1,23 @@
+= 
+
+= white
+
+=25 1 L13
+
+=====performance_counters=====
+231205006 q0_0
+0 q1_0
+0 q2_0
+6045 q0_1
+0 q1_1
+0 q2_1
+9341572 branch_misp
+29433427 branch_res
+8430544 ticks (ns)
+421525969 cycles
+180400829 instructions
+2.33 CPI
+30 syscalls
+130 frontend_syscalls
+17589311 frontend_syscall_cycles
+14745096 frontend_syscall_instructions

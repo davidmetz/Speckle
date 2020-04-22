@@ -1,0 +1,18 @@
+
+ Performance counter stats for './astar lake.cfg':
+
+        1828460.68 msec task-clock                #    0.999 CPUs utilized          
+              1066      context-switches          #    0.001 K/sec                  
+               146      cpu-migrations            #    0.000 K/sec                  
+              3930      page-faults               #    0.002 K/sec                  
+       91423278069      cycles                    #    0.050 GHz                    
+       26817545463      instructions              #    0.29  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1829.450175000 seconds time elapsed
+
+    1827.221023000 seconds user
+       1.211568000 seconds sys
+
+

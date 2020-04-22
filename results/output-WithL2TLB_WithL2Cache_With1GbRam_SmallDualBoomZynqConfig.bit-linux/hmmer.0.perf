@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./hmmer --fixed 0 --mean 325 --num 45000 --sd 200 --seed 0 bombesin.hmm':
+
+         909438.80 msec task-clock                #    0.998 CPUs utilized          
+              1952      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               348      page-faults               #    0.000 K/sec                  
+       45471954277      cycles                    #    0.050 GHz                    
+       20587328356      instructions              #    0.45  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     910.859959000 seconds time elapsed
+
+     909.051123000 seconds user
+       0.282939000 seconds sys
+
+

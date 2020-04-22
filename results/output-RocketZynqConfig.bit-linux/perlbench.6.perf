@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib regmesg.pl':
+
+            673.21 msec task-clock                #    0.954 CPUs utilized          
+                16      context-switches          #    0.024 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               136      page-faults               #    0.202 K/sec                  
+          33659673      cycles                    #    0.050 GHz                    
+           9747727      instructions              #    0.29  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.705506000 seconds time elapsed
+
+       0.586636000 seconds user
+       0.103057000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./bwaves':
+
+        1684307.95 msec task-clock                #    0.998 CPUs utilized          
+              4515      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             30592      page-faults               #    0.018 K/sec                  
+       84214763202      cycles                    #    0.050 GHz                    
+       22124458182      instructions              #    0.26  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1688.366988000 seconds time elapsed
+
+    1677.243931000 seconds user
+       6.549688000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./gcc cccp.in -o cccp.s':
+
+         352914.16 msec task-clock                #    0.995 CPUs utilized          
+              1255      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              4550      page-faults               #    0.013 K/sec                  
+       17646196199      cycles                    #    0.050 GHz                    
+        5629300655      instructions              #    0.32  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     354.638454000 seconds time elapsed
+
+     350.678605000 seconds user
+       2.217125000 seconds sys
+
+

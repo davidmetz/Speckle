@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./bzip2 input.program 5':
+
+         418101.40 msec task-clock                #    0.997 CPUs utilized          
+              1535      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              8600      page-faults               #    0.021 K/sec                  
+       20905107635      cycles                    #    0.050 GHz                    
+       12835400121      instructions              #    0.61  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     419.484397000 seconds time elapsed
+
+     414.034199000 seconds user
+       4.045032000 seconds sys
+
+

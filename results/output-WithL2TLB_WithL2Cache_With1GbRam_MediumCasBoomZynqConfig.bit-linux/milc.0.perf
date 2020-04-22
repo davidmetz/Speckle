@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./milc':
+
+        1113151.45 msec task-clock                #    0.998 CPUs utilized          
+              3041      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+            225660      page-faults               #    0.203 K/sec                  
+       55656862509      cycles                    #    0.050 GHz                    
+       28673761412      instructions              #    0.52  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1115.823461000 seconds time elapsed
+
+    1072.890475000 seconds user
+      39.923692000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./povray SPEC-benchmark-test.ini':
+
+         156062.81 msec task-clock                #    0.996 CPUs utilized          
+               667      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               915      page-faults               #    0.006 K/sec                  
+        7803187290      cycles                    #    0.050 GHz                    
+        2762351257      instructions              #    0.35  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     156.759887000 seconds time elapsed
+
+     154.923654000 seconds user
+       1.139122000 seconds sys
+
+

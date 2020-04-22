@@ -1,0 +1,35 @@
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 bombesin.hmm
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        45000
+random seed:              0
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+HMM    : Bombesin
+mu     :    -5.959400
+lambda :     0.576502
+max    :     7.707000
+//
+=====performance_counters=====
+4604612477 q0_0
+4439065972 q1_0
+8939128195 q2_0
+4485968793 q0_1
+4118906833 q1_1
+9082461794 q2_1
+740189732 branch_misp
+3334509683 branch_res
+812428217 ticks (ns)
+40621409663 cycles
+19465768999 instructions
+2.08 CPI
+34 syscalls
+94 frontend_syscalls
+4246210 frontend_syscall_cycles
+4047210 frontend_syscall_instructions

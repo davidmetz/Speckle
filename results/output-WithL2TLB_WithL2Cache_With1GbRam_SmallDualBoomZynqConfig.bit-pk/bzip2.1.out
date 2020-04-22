@@ -1,0 +1,39 @@
+spec_init
+Loading Input Data
+Duplicating 278475 bytes
+Duplicating 556950 bytes
+Duplicating 983252 bytes
+Input data 2097152 bytes in length
+Compressing Input Data, level 5
+Compressed data 1434910 bytes in length
+Uncompressing Data
+Uncompressed data 2097152 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 7
+Compressed data 1127895 bytes in length
+Uncompressing Data
+Uncompressed data 2097152 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 9
+Compressed data 1067335 bytes in length
+Uncompressing Data
+Uncompressed data 2097152 bytes in length
+Uncompressed data compared correctly
+Tested 2MB buffer: OK!
+=====performance_counters=====
+25082791288 q0_0
+0 q1_0
+0 q2_0
+7838 q0_1
+0 q1_1
+0 q2_1
+334491170 branch_misp
+3247079672 branch_res
+777378694 ticks (ns)
+38868933519 cycles
+22724390504 instructions
+1.71 CPI
+38 syscalls
+57 frontend_syscalls
+4016292 frontend_syscall_cycles
+3577568 frontend_syscall_instructions

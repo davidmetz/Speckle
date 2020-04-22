@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib gv.pl':
+
+            684.64 msec task-clock                #    0.955 CPUs utilized          
+                23      context-switches          #    0.034 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               339      page-faults               #    0.495 K/sec                  
+          34220523      cycles                    #    0.050 GHz                    
+          12333050      instructions              #    0.36  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.716692000 seconds time elapsed
+
+       0.532716000 seconds user
+       0.169011000 seconds sys
+
+

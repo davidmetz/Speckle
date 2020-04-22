@@ -1,0 +1,89 @@
+= black
+
+=1 1 T7
+
+= black
+
+=2 1 M1
+
+= black
+
+=3 0
+
+= black
+
+=4 0
+
+= black
+
+=5 0
+
+= black
+
+=6 1 N2
+
+= black
+
+=7 1 S2
+
+= black
+
+=8 3 G8
+
+= black
+
+=9 0
+
+= black
+
+=10 1 P11
+
+= black
+
+=11 0
+
+= black
+
+=12 0
+
+= black
+
+=13 0
+
+= black
+
+=14 0
+
+= black
+
+=15 0
+
+= black
+
+=16 1 A15
+
+= black
+
+=17 1 G6
+
+= black
+
+=18 1 F6
+
+=====performance_counters=====
+367619458 q0_0
+0 q1_0
+0 q2_0
+364797395 q0_1
+0 q1_1
+0 q2_1
+25483201 branch_misp
+78955390 branch_res
+19188924 ticks (ns)
+959444954 cycles
+465603205 instructions
+2.06 CPI
+247 syscalls
+319 frontend_syscalls
+23097136 frontend_syscall_cycles
+22448610 frontend_syscall_instructions

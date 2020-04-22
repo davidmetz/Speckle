@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib makerand.pl':
+
+          19999.46 msec task-clock                #    0.980 CPUs utilized          
+               199      context-switches          #    0.010 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                68      page-faults               #    0.003 K/sec                  
+        1000034192      cycles                    #    0.050 GHz                    
+         328189092      instructions              #    0.33  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      20.415825000 seconds time elapsed
+
+      19.940885000 seconds user
+       0.075533000 seconds sys
+
+

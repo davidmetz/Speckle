@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./Xalan -v test.xml xalanc.xsl':
+
+          26947.50 msec task-clock                #    0.974 CPUs utilized          
+               319      context-switches          #    0.012 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              1863      page-faults               #    0.069 K/sec                  
+        1347538012      cycles                    #    0.050 GHz                    
+         352986103      instructions              #    0.26  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      27.664198000 seconds time elapsed
+
+      25.612616000 seconds user
+       1.407725000 seconds sys
+
+

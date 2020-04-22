@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib ref.pl':
+
+            471.27 msec task-clock                #    0.961 CPUs utilized          
+                 1      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               121      page-faults               #    0.257 K/sec                  
+          23562724      cycles                    #    0.050 GHz                    
+           5491579      instructions              #    0.23  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.490541000 seconds time elapsed
+
+       0.398568000 seconds user
+       0.096622000 seconds sys
+
+

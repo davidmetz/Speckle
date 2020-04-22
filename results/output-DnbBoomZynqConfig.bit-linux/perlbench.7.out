@@ -1,0 +1,289 @@
+Tests to run: 72
+1: Running append.t
+1: append.t child start
+1: append.t child exit
+1: Finished append.t
+2: Running args.t
+2: args.t child start
+2: args.t child exit
+2: Finished args.t
+3: Running arith.t
+3: arith.t child start
+3: arith.t child exit
+3: Finished arith.t
+4: Running array.t
+4: array.t child start
+4: array.t child exit
+4: Finished array.t
+5: Running auto.t
+5: auto.t child start
+5: auto.t child exit
+5: Finished auto.t
+6: Running base_cond.t
+6: base_cond.t child start
+6: base_cond.t child exit
+6: Finished base_cond.t
+7: Running base_pat.t
+7: base_pat.t child start
+7: base_pat.t child exit
+7: Finished base_pat.t
+8: Running base_term.t
+8: base_term.t child start
+8: base_term.t child exit
+8: Finished base_term.t
+9: Running bless.t
+9: bless.t child start
+9: bless.t child exit
+9: Finished bless.t
+10: Running bop.t
+10: bop.t child start
+10: bop.t child exit
+10: Finished bop.t
+11: Running bproto.t
+11: bproto.t child start
+11: bproto.t child exit
+11: Finished bproto.t
+12: Running chars.t
+12: chars.t child start
+12: chars.t child exit
+12: Finished chars.t
+13: Running chop.t
+13: chop.t child start
+13: chop.t child exit
+13: Finished chop.t
+14: Running cmdopt.t
+14: cmdopt.t child start
+14: cmdopt.t child exit
+14: Finished cmdopt.t
+15: Running cmp.t
+15: cmp.t child start
+15: cmp.t child exit
+15: Finished cmp.t
+16: Running comp_term.t
+16: comp_term.t child start
+16: comp_term.t child exit
+16: Finished comp_term.t
+17: Running concat.t
+17: concat.t child start
+17: concat.t child exit
+17: Finished concat.t
+18: Running context.t
+18: context.t child start
+18: context.t child exit
+18: Finished context.t
+19: Running decl.t
+19: decl.t child start
+19: decl.t child exit
+19: Finished decl.t
+20: Running defins.t
+20: defins.t child start
+20: defins.t child exit
+20: Finished defins.t
+21: Running delete.t
+21: delete.t child start
+21: delete.t child exit
+21: Finished delete.t
+22: Running die.t
+22: die.t child start
+22: die.t child exit
+22: Finished die.t
+23: Running do.t
+23: do.t child start
+23: do.t child exit
+23: Finished do.t
+24: Running each.t
+24: each.t child start
+24: each.t child exit
+24: Finished each.t
+25: Running eval.t
+25: eval.t child start
+25: eval.t child exit
+25: Finished eval.t
+26: Running exists_sub.t
+26: exists_sub.t child start
+26: Finished exists_sub.t
+27: Running exp.t
+27: exp.t child start
+27: exp.t child exit
+27: Finished exp.t
+28: Running fh.t
+28: fh.t child start
+28: fh.t child exit
+28: Finished fh.t
+29: Running grep.t
+29: grep.t child start
+29: grep.t child exit
+29: Finished grep.t
+30: Running hashwarn.t
+30: hashwarn.t child start
+30: hashwarn.t child exit
+30: Finished hashwarn.t
+31: Running if.t
+31: if.t child start
+31: if.t child exit
+31: Finished if.t
+32: Running inc.t
+32: inc.t child start
+32: inc.t child exit
+32: Finished inc.t
+33: Running index.t
+33: index.t child start
+33: index.t child exit
+33: Finished index.t
+34: Running int.t
+34: int.t child start
+34: int.t child exit
+34: Finished int.t
+35: Running join.t
+35: join.t child start
+35: join.t child exit
+35: Finished join.t
+36: Running length.t
+36: length.t child start
+36: length.t child exit
+36: Finished length.t
+37: Running lex.t
+37: lex.t child start
+37: lex.t child exit
+37: Finished lex.t
+38: Running list.t
+38: list.t child start
+38: list.t child exit
+38: Finished list.t
+39: Running loopctl.t
+39: loopctl.t child start
+39: loopctl.t child exit
+39: Finished loopctl.t
+40: Running lop.t
+40: lop.t child start
+40: lop.t child exit
+40: Finished lop.t
+41: Running method.t
+41: method.t child start
+41: method.t child exit
+41: Finished method.t
+42: Running my.t
+42: my.t child start
+42: my.t child exit
+42: Finished my.t
+43: Running nothr5005.t
+43: nothr5005.t child start
+43: nothr5005.t child exit
+43: Finished nothr5005.t
+44: Running oct.t
+44: oct.t child start
+44: oct.t child exit
+44: Finished oct.t
+45: Running op_cond.t
+45: op_cond.t child start
+45: op_cond.t child exit
+45: Finished op_cond.t
+46: Running op_pat.t
+46: op_pat.t child start
+46: op_pat.t child exit
+46: Finished op_pat.t
+47: Running ord.t
+47: ord.t child start
+47: ord.t child exit
+47: Finished ord.t
+48: Running override.t
+48: override.t child start
+48: override.t child exit
+48: Finished override.t
+49: Running package.t
+49: package.t child start
+49: package.t child exit
+49: Finished package.t
+50: Running pos.t
+50: pos.t child start
+50: pos.t child exit
+50: Finished pos.t
+51: Running push.t
+51: push.t child start
+51: push.t child exit
+51: Finished push.t
+52: Running quotemeta.t
+52: quotemeta.t child start
+52: quotemeta.t child exit
+52: Finished quotemeta.t
+53: Running range.t
+53: range.t child start
+53: range.t child exit
+53: Finished range.t
+54: Running recurse.t
+54: recurse.t child start
+54: recurse.t child exit
+54: Finished recurse.t
+55: Running regexp.t
+55: regexp.t child start
+55: regexp.t child exit
+55: Finished regexp.t
+56: Running regexp_noamp.t
+56: regexp_noamp.t child start
+56: regexp_noamp.t child exit
+56: Finished regexp_noamp.t
+57: Running repeat.t
+57: repeat.t child start
+57: repeat.t child exit
+57: Finished repeat.t
+58: Running reverse.t
+58: reverse.t child start
+58: reverse.t child exit
+58: Finished reverse.t
+59: Running rs.t
+59: rs.t child start
+59: rs.t child exit
+59: Finished rs.t
+60: Running sleep.t
+60: sleep.t child start
+60: sleep.t child exit
+60: Finished sleep.t
+61: Running sort.t
+61: sort.t child start
+61: sort.t child exit
+61: Finished sort.t
+62: Running splice.t
+62: splice.t child start
+62: splice.t child exit
+62: Finished splice.t
+63: Running study.t
+63: study.t child start
+63: study.t child exit
+63: Finished study.t
+64: Running sub_lval.t
+64: sub_lval.t child start
+64: sub_lval.t child exit
+64: Finished sub_lval.t
+65: Running subst.t
+65: subst.t child start
+65: subst.t child exit
+65: Finished subst.t
+66: Running subst_amp.t
+66: subst_amp.t child start
+66: subst_amp.t child exit
+66: Finished subst_amp.t
+67: Running subst_wamp.t
+67: subst_wamp.t child start
+67: subst_wamp.t child exit
+67: Finished subst_wamp.t
+68: Running tr.t
+68: tr.t child start
+68: tr.t child exit
+68: Finished tr.t
+69: Running undef.t
+69: undef.t child start
+69: undef.t child exit
+69: Finished undef.t
+70: Running unshift.t
+70: unshift.t child start
+70: unshift.t child exit
+70: Finished unshift.t
+71: Running vec.t
+71: vec.t child start
+71: vec.t child exit
+71: Finished vec.t
+72: Running wantarray.t
+72: wantarray.t child start
+72: wantarray.t child exit
+72: Finished wantarray.t
+Tests run: 72

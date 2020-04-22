@@ -1,0 +1,18 @@
+
+ Performance counter stats for './gobmk --quiet --mode gtp':
+
+          24478.50 msec task-clock                #    0.980 CPUs utilized          
+               249      context-switches          #    0.010 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              5961      page-faults               #    0.244 K/sec                  
+        1224021774      cycles                    #    0.050 GHz                    
+         497136909      instructions              #    0.41  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      24.971393000 seconds time elapsed
+
+      22.880938000 seconds user
+       1.628366000 seconds sys
+
+

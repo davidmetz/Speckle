@@ -1,0 +1,57 @@
+Small Path Finding Library
+Read configuration file
+Create ways
+lake.bin
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 2318
+Total way length : 607363
+
+Create reg ways time : 0
+Reg ways quantity : 21248
+Total reg way length : 1005921
+
+Create river ways time : 0
+River ways quantity : 250
+Total river way length : 39000
+Create land ways time : 0
+Land ways quantity : 250
+Total land way length : 54956
+
+Create ways
+Random map
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 3875
+Total way length : 612234
+
+Create reg ways time : 0
+Reg ways quantity : 29222
+Total reg way length : 1009555
+
+Create river ways time : 0
+River ways quantity : 0
+Total river way length : 0
+Create land ways time : 0
+Land ways quantity : 0
+Total land way length : 0
+
+=====performance_counters=====
+35629 q0_0
+612959321 q1_0
+286040903 q2_0
+2394 q0_1
+7787459486 q1_1
+2047677192 q2_1
+1011000597 branch_misp
+3986414021 branch_res
+1051835408 ticks (ns)
+52591769281 cycles
+24578264882 instructions
+2.13 CPI
+76 syscalls
+98 frontend_syscalls
+3289043 frontend_syscall_cycles
+2167206 frontend_syscall_instructions

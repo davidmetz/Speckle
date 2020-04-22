@@ -1,0 +1,18 @@
+
+ Performance counter stats for './mcf inp.in':
+
+         538573.59 msec task-clock                #    0.999 CPUs utilized          
+               538      context-switches          #    0.001 K/sec                  
+                83      cpu-migrations            #    0.000 K/sec                  
+             39511      page-faults               #    0.073 K/sec                  
+       26928924501      cycles                    #    0.050 GHz                    
+        3887368755      instructions              #    0.14  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     539.313008000 seconds time elapsed
+
+     528.570451000 seconds user
+      10.018208000 seconds sys
+
+

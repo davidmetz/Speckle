@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./bzip2 dryer.jpg 2':
+
+         863176.84 msec task-clock                #    0.999 CPUs utilized          
+               980      context-switches          #    0.001 K/sec                  
+                17      cpu-migrations            #    0.000 K/sec                  
+              6805      page-faults               #    0.008 K/sec                  
+       43158745772      cycles                    #    0.050 GHz                    
+       23785142125      instructions              #    0.55  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     863.850790000 seconds time elapsed
+
+     861.583967000 seconds user
+       1.516403000 seconds sys
+
+

@@ -1,0 +1,75 @@
+
+************************************************************
+
+CalculiX DEVELOPMENT VERSION, Copyright(C) 1998 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+ nload =            0
+ nforc =            9
+ nboun =           63
+ nk =          261
+ ne =           32
+ ne1d =            0
+ ne2d =            0
+ nmpc =            1
+ nset =            5
+ nalset =          100
+ nmat =            1
+ ncmat =            2
+ ntmat =            1
+ npmat =            0
+ norien =            0
+ nam =            0
+ namtot =            0
+ noprint =          261
+ neprint =           32
+ mint =            8
+ ntrans =            0
+ ncs =            0
+ memmpc =            1
+
+ STEP            1
+
+ Static analysis was selected
+
+Decascading the MPC's
+
+Renumbering the nodes to decrease the profile:
+ old profile =            0 *2147483647+       25326
+ new profile =            0 *2147483647+        7317
+
+Determining the structure of the matrix:
+number of equations
+720
+number of nonzero matrix elements
+38178
+total length of the skyline
+0*2147483647+58986
+percentage of nonzero skyline elements
+63.943322
+
+ Printing nodal quantities
+
+ Printing element quantities
+
+=====performance_counters=====
+59501389 q0_0
+69641898 q1_0
+0 q2_0
+66052786 q0_1
+62070362 q1_1
+0 q2_1
+4380869 branch_misp
+35969997 branch_res
+6162435 ticks (ns)
+308120526 cycles
+181057645 instructions
+1.70 CPI
+1375 syscalls
+1572 frontend_syscalls
+14494179 frontend_syscall_cycles
+12247280 frontend_syscall_instructions

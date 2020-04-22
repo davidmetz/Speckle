@@ -1,0 +1,53 @@
+= black
+
+=1  2
+
+= black
+
+=2  2
+
+= black
+
+=3  2
+
+= black
+
+=4  2
+
+= black
+
+=5  0
+
+= black
+
+=6  1
+
+= black
+
+=7  1
+
+= black
+
+=8  2
+
+= black
+
+=9  2
+
+=====performance_counters=====
+499685248 q0_0
+58777936 q1_0
+336830506 q2_0
+517241556 q0_1
+51920663 q1_1
+313970192 q2_1
+47689901 branch_misp
+125989188 branch_res
+36812335 ticks (ns)
+1840615609 cycles
+837724926 instructions
+2.19 CPI
+121 syscalls
+210 frontend_syscalls
+17691690 frontend_syscall_cycles
+17234784 frontend_syscall_instructions

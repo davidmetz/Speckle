@@ -1,0 +1,18 @@
+
+ Performance counter stats for './libquantum 33 5':
+
+          14494.97 msec task-clock                #    0.991 CPUs utilized          
+                70      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.004 K/sec                  
+         724771061      cycles                    #    0.050 GHz                    
+         332634806      instructions              #    0.46  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      14.628696000 seconds time elapsed
+
+      14.356642000 seconds user
+       0.163460000 seconds sys
+
+

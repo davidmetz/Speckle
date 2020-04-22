@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib ref.pl':
+
+            424.07 msec task-clock                #    0.952 CPUs utilized          
+                14      context-switches          #    0.033 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               301      page-faults               #    0.710 K/sec                  
+          21196901      cycles                    #    0.050 GHz                    
+           7034139      instructions              #    0.33  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.445465000 seconds time elapsed
+
+       0.311654000 seconds user
+       0.131702000 seconds sys
+
+

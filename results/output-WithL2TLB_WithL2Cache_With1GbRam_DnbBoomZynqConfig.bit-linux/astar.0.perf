@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./astar lake.cfg':
+
+        1554985.53 msec task-clock                #    0.998 CPUs utilized          
+              4157      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              4110      page-faults               #    0.003 K/sec                  
+       77749199863      cycles                    #    0.050 GHz                    
+       26435075861      instructions              #    0.34  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    1558.011371000 seconds time elapsed
+
+    1552.714154000 seconds user
+       1.967076000 seconds sys
+
+

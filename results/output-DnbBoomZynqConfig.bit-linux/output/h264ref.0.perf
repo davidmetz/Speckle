@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./h264ref -d foreman_test_encoder_baseline.cfg':
+
+        3693695.06 msec task-clock                #    0.997 CPUs utilized          
+             10015      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              9176      page-faults               #    0.002 K/sec                  
+      184688257569      cycles                    #    0.050 GHz                    
+      112236619507      instructions              #    0.61  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    3703.465032000 seconds time elapsed
+
+    3690.079151000 seconds user
+       2.787296000 seconds sys
+
+

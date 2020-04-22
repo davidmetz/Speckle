@@ -1,0 +1,18 @@
+
+ Performance counter stats for './bzip2 input.program 5':
+
+         469707.93 msec task-clock                #    0.996 CPUs utilized          
+              1674      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              8420      page-faults               #    0.018 K/sec                  
+       23485314657      cycles                    #    0.050 GHz                    
+       12885859959      instructions              #    0.55  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     471.439124000 seconds time elapsed
+
+     465.096610000 seconds user
+       4.617878000 seconds sys
+
+

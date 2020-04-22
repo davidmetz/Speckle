@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./lbm 20 reference.dat 0 1 100_100_130_cf_a.of':
+
+         527288.49 msec task-clock                #    0.997 CPUs utilized          
+              1546      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+            104888      page-faults               #    0.199 K/sec                  
+       26364383541      cycles                    #    0.050 GHz                    
+        6323806898      instructions              #    0.24  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     528.657872000 seconds time elapsed
+
+     506.947862000 seconds user
+      20.214160000 seconds sys
+
+

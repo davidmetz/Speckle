@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./tonto':
+
+         117738.25 msec task-clock                #    0.994 CPUs utilized          
+               587      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               921      page-faults               #    0.008 K/sec                  
+        5887017556      cycles                    #    0.050 GHz                    
+        3128480259      instructions              #    0.53  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     118.473253000 seconds time elapsed
+
+     116.446336000 seconds user
+       1.330091000 seconds sys
+
+

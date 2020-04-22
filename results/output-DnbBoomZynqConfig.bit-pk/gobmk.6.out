@@ -1,0 +1,49 @@
+= white
+
+=1 D15
+
+= white
+
+=2 P16
+
+= white
+
+=3 B15
+
+= white
+
+=4 D7
+
+= white
+
+=5 B15
+
+= white
+
+=6 E4
+
+= white
+
+=7 B8
+
+= white
+
+=8 O8
+
+=====performance_counters=====
+20376046741 q0_0
+2999514693 q1_0
+14498934848 q2_0
+21220173735 q0_1
+2316773411 q1_1
+13366833539 q2_1
+2526711665 branch_misp
+7067880797 branch_res
+2395254297 ticks (ns)
+119762713636 cycles
+44945032079 instructions
+2.66 CPI
+120 syscalls
+441 frontend_syscalls
+25783986 frontend_syscall_cycles
+20268642 frontend_syscall_instructions

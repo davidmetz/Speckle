@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib redef.pl':
+
+            391.14 msec task-clock                #    0.916 CPUs utilized          
+                14      context-switches          #    0.036 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               275      page-faults               #    0.703 K/sec                  
+          19550369      cycles                    #    0.050 GHz                    
+           4973488      instructions              #    0.25  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.427034000 seconds time elapsed
+
+       0.257418000 seconds user
+       0.158683000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./sjeng test.txt':
+
+         660423.23 msec task-clock                #    0.998 CPUs utilized          
+              1885      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             44847      page-faults               #    0.068 K/sec                  
+       33020664650      cycles                    #    0.050 GHz                    
+       19246121290      instructions              #    0.58  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     661.818145000 seconds time elapsed
+
+     651.226803000 seconds user
+       9.060416000 seconds sys
+
+

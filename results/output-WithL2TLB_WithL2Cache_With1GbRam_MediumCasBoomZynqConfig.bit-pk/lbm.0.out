@@ -1,0 +1,20 @@
+MAIN_parseCommandLine:
+	size of file '100_100_130_cf_a.of' is 0 bytes
+	expected size is 1313130 bytes
+=====performance_counters=====
+604653 q0_0
+592745 q1_0
+0 q2_0
+17855 q0_1
+1628 q1_1
+0 q2_1
+1813 branch_misp
+592490 branch_res
+26303 ticks (ns)
+1314305 cycles
+1207315 instructions
+1.08 CPI
+10 syscalls
+45 frontend_syscalls
+1315364 frontend_syscall_cycles
+1274942 frontend_syscall_instructions

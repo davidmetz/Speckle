@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib attrs.pl':
+
+           1374.86 msec task-clock                #    0.813 CPUs utilized          
+               108      context-switches          #    0.079 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               393      page-faults               #    0.286 K/sec                  
+          68769688      cycles                    #    0.050 GHz                    
+          20371863      instructions              #    0.30  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       1.691485000 seconds time elapsed
+
+       0.944773000 seconds user
+       0.466368000 seconds sys
+
+

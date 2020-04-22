@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./gobmk --quiet --mode gtp':
+
+         184447.38 msec task-clock                #    0.997 CPUs utilized          
+               837      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              6151      page-faults               #    0.033 K/sec                  
+        9222345366      cycles                    #    0.050 GHz                    
+        4386860566      instructions              #    0.48  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     185.029279000 seconds time elapsed
+
+     182.802982000 seconds user
+       1.598986000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for './Xalan -v test.xml xalanc.xsl':
+
+          13357.85 msec task-clock                #    0.961 CPUs utilized          
+               292      context-switches          #    0.022 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              1682      page-faults               #    0.126 K/sec                  
+         667965813      cycles                    #    0.050 GHz                    
+         335278075      instructions              #    0.50  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      13.902371000 seconds time elapsed
+
+      12.490322000 seconds user
+       0.904804000 seconds sys
+
+

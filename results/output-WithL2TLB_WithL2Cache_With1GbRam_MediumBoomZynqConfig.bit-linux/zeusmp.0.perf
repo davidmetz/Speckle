@@ -1,0 +1,19 @@
+timeout: Segmentation fault
+
+ Performance counter stats for 'timeout 5000 ./zeusmp':
+
+            108.29 msec task-clock                #    0.862 CPUs utilized          
+                 5      context-switches          #    0.046 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               170      page-faults               #    0.002 M/sec                  
+           5407306      cycles                    #    0.050 GHz                    
+           1737316      instructions              #    0.32  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.125567000 seconds time elapsed
+
+       0.015633000 seconds user
+       0.112659000 seconds sys
+
+

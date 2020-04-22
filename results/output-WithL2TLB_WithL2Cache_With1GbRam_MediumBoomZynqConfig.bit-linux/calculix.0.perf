@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./calculix -i beampic':
+
+           5850.98 msec task-clock                #    0.955 CPUs utilized          
+               157      context-switches          #    0.027 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               910      page-faults               #    0.156 K/sec                  
+         292618114      cycles                    #    0.050 GHz                    
+         177017575      instructions              #    0.60  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       6.126403000 seconds time elapsed
+
+       5.241003000 seconds user
+       0.646271000 seconds sys
+
+

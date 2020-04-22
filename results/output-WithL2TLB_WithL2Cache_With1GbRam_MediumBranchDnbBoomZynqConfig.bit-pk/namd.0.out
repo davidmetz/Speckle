@@ -1,0 +1,27 @@
+*** TEST RUN - 1 ITERATIONS ***
+writing to output file namd.out
+iteration 0: 1 0 0
+iteration 0: 1 1 0
+iteration 0: 1 1 1
+iteration 0: 0 0 0
+iteration 0: 0 1 0
+iteration 0: 0 1 1
+*** TEST RUN - 1 ITERATIONS ***
+SUCCESSFUL COMPLETION
+=====performance_counters=====
+21578320391 q0_0
+1816060719 q1_0
+5402001206 q2_0
+21518732531 q0_1
+1565152902 q1_1
+5581440952 q2_1
+414800544 branch_misp
+3564513384 branch_res
+1826453454 ticks (ns)
+91322671505 cycles
+47552408591 instructions
+1.92 CPI
+1003 syscalls
+1011 frontend_syscalls
+54784134 frontend_syscall_cycles
+48703306 frontend_syscall_instructions

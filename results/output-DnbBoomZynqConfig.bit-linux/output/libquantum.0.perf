@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./libquantum 33 5':
+
+          11213.93 msec task-clock                #    0.986 CPUs utilized          
+                78      context-switches          #    0.007 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               231      page-faults               #    0.021 K/sec                  
+         560709421      cycles                    #    0.050 GHz                    
+         330858366      instructions              #    0.59  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      11.377539000 seconds time elapsed
+
+      10.971034000 seconds user
+       0.271265000 seconds sys
+
+

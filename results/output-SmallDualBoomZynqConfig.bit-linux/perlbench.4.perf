@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib redef.pl':
+
+            265.47 msec task-clock                #    0.934 CPUs utilized          
+                 1      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                94      page-faults               #    0.354 K/sec                  
+          13272318      cycles                    #    0.050 GHz                    
+           3214945      instructions              #    0.24  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.284082000 seconds time elapsed
+
+       0.220711000 seconds user
+       0.068220000 seconds sys
+
+

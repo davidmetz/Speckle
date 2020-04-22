@@ -1,0 +1,17 @@
+=====performance_counters=====
+10416716432 q0_0
+0 q1_0
+0 q2_0
+10397125659 q0_1
+0 q1_1
+0 q2_1
+104373338 branch_misp
+891389039 branch_res
+1420485891 ticks (ns)
+71024293280 cycles
+20081063789 instructions
+3.53 CPI
+150 syscalls
+130 frontend_syscalls
+4851335 frontend_syscall_cycles
+4539828 frontend_syscall_instructions

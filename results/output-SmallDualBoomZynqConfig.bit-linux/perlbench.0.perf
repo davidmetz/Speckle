@@ -1,0 +1,18 @@
+
+ Performance counter stats for './perlbench -I. -I./lib attrs.pl':
+
+           1837.69 msec task-clock                #    0.836 CPUs utilized          
+               113      context-switches          #    0.061 K/sec                  
+                 3      cpu-migrations            #    0.002 K/sec                  
+               212      page-faults               #    0.115 K/sec                  
+          91931250      cycles                    #    0.050 GHz                    
+          19583046      instructions              #    0.21  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       2.197837000 seconds time elapsed
+
+       1.345976000 seconds user
+       0.534372000 seconds sys
+
+

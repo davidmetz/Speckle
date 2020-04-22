@@ -1,0 +1,19 @@
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
+
+ Performance counter stats for 'timeout 5000 ./wrf':
+
+         552986.79 msec task-clock                #    0.995 CPUs utilized          
+              2435      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             41205      page-faults               #    0.075 K/sec                  
+       27650109476      cycles                    #    0.050 GHz                    
+       12109653512      instructions              #    0.44  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     555.528450000 seconds time elapsed
+
+     541.644950000 seconds user
+      11.398758000 seconds sys
+
+

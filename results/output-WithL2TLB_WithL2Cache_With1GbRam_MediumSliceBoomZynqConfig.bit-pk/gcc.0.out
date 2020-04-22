@@ -1,0 +1,18 @@
+/usr/include: Not a directory
+=====performance_counters=====
+3037102883 q0_0
+2055260271 q1_0
+0 q2_0
+3099098017 q0_1
+1933370866 q1_1
+0 q2_1
+255561865 branch_misp
+910905801 branch_res
+256914182 ticks (ns)
+12845707807 cycles
+5212017042 instructions
+2.46 CPI
+100 syscalls
+636 frontend_syscalls
+20108233 frontend_syscall_cycles
+17847350 frontend_syscall_instructions

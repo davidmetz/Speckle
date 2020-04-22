@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./perlbench -I. -I./lib regmesg.pl':
+
+            680.25 msec task-clock                #    0.961 CPUs utilized          
+                21      context-switches          #    0.031 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               316      page-faults               #    0.465 K/sec                  
+          33995243      cycles                    #    0.050 GHz                    
+          11222193      instructions              #    0.33  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0.707958000 seconds time elapsed
+
+       0.527841000 seconds user
+       0.172308000 seconds sys
+
+

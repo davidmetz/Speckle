@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./mcf inp.in':
+
+         490840.33 msec task-clock                #    0.997 CPUs utilized          
+              1419      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             39692      page-faults               #    0.081 K/sec                  
+       24542550933      cycles                    #    0.050 GHz                    
+        3814603856      instructions              #    0.16  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     492.357772000 seconds time elapsed
+
+     480.490422000 seconds user
+      10.269572000 seconds sys
+
+

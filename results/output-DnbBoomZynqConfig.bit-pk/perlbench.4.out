@@ -1,0 +1,38 @@
+1..20
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+=====performance_counters=====
+1372058 q0_0
+132057 q1_0
+2697811 q2_0
+3194719 q0_1
+132892 q1_1
+823480 q2_1
+172411 branch_misp
+2365952 branch_res
+283967 ticks (ns)
+14197160 cycles
+6337764 instructions
+2.24 CPI
+37 syscalls
+190 frontend_syscalls
+5266146 frontend_syscall_cycles
+4000036 frontend_syscall_instructions

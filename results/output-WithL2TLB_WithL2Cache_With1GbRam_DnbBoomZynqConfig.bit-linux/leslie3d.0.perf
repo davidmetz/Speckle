@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./leslie3d':
+
+        3114837.80 msec task-clock                #    0.998 CPUs utilized          
+              8368      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              3749      page-faults               #    0.001 K/sec                  
+      155740438037      cycles                    #    0.050 GHz                    
+       52659721948      instructions              #    0.34  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+    3121.758317000 seconds time elapsed
+
+    3106.835514000 seconds user
+       7.067296000 seconds sys
+
+

@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'timeout 5000 ./omnetpp omnetpp.ini':
+
+         118118.83 msec task-clock                #    0.996 CPUs utilized          
+               481      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+              2066      page-faults               #    0.017 K/sec                  
+        5905958291      cycles                    #    0.050 GHz                    
+        1880029795      instructions              #    0.32  insn per cycle         
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+     118.626731000 seconds time elapsed
+
+     117.115007000 seconds user
+       1.019056000 seconds sys
+
+
