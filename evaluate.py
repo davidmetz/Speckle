@@ -5,22 +5,37 @@ import numpy as np
 import copy
 
 options = [
-    # "slice-counter",
-    # "slice-uni",
-    # "dnb",
-    # "slice2",
-    # "rocket",
-    # "small2",
-    # "medium",
-    # "large",
-    # "spike-ideal",
-    # "spike-lru-ist",
-    # "spike-ibda-store-data",
-    # "small-btb",
-    # "small-btb-gshare",
-    # "spike-scalls",
-    # "small-frontend",
-    "small-linux-perf",
+    # "SmallBoomZynqConfig.bit-linux",
+    # "DnbBoomZynqConfig.bit-linux",
+    # "CasBoomZynqConfig.bit-linux",
+    # "SmallDualBoomZynqConfig.bit-linux",
+    # "RocketZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_RocketZynqConfig.bit-linux",
+    "WithL2TLB_WithL2Cache_With1GbRam_SmallBoomZynqConfig.bit-linux",
+    "WithL2TLB_WithL2Cache_With1GbRam_SmallDualBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_DnbBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumBoomZynqConfig.bit-pk",
+    # # "WithL2TLB_WithL2Cache_With1GbRam_MediumSliceBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumSliceBoomZynqConfig.bit-pk",
+    # # "WithL2TLB_WithL2Cache_With1GbRam_MediumDnbBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumDnbBoomZynqConfig.bit-pk",
+    # # "WithL2TLB_WithL2Cache_With1GbRam_MediumCasBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumCasBoomZynqConfig.bit-pk",
+    # # "WithL2TLB_WithL2Cache_With1GbRam_MediumBranchDnbBoomZynqConfig.bit-linux",
+    # "WithL2TLB_WithL2Cache_With1GbRam_MediumBranchDnbBoomZynqConfig.bit-pk",
+    # "MediumBoomZynqConfig.bit-linux",
+    # "LargeBoomZynqConfig.bit-linux",
+    # "RocketZynqConfig.bit-pk",
+    # "SmallBoomZynqConfig.bit-pk",
+    # "DnbBoomZynqConfig.bit-pk",
+    # "CasBoomZynqConfig.bit-pk",
+    # "SmallDualBoomZynqConfig.bit-pk",
+    # "WithL2TLB_WithL2Cache_With1GbRam_RocketZynqConfig.bit-pk",
+    # "WithL2TLB_WithL2Cache_With1GbRam_DnbBoomZynqConfig.bit-pk",
+    # "WithL2TLB_WithL2Cache_With1GbRam_SmallBoomZynqConfig.bit-pk",
+    # "MediumBoomZynqConfig.bit-pk",
+    # "LargeBoomZynqConfig.bit-pk",
 ]
 plot_values = [
     # 'cycles',
@@ -35,11 +50,11 @@ plot_values = [
     # "syscalls",
     # "frontend_cycle_rate",
     # "frontend_insn_rate",
+    # "page-faults",
+    # "sys_seconds",
+    # "user_seconds",
+    "time_seconds",
     "context-switches",
-    "page-faults",
-    "sys_seconds",
-    "user_seconds",
-
 ]
 
 percentage_plots = [
@@ -59,7 +74,7 @@ stack_targets  = [
     # "spike-ideal",
     # "spike-lru-ist",
     # "spike-ibda-store-data",
-    "small-linux-perf",
+#     "small-linux-perf",
 ]
 values = {}
 tests = set()
@@ -92,12 +107,17 @@ def extend_values(val_dict):
         val_dict['cycles_adj'] = val_dict['cycles'] - val_dict['frontend_syscall_cycles']
         # override CPI
         val_dict['CPI'] = val_dict['cycles_adj']/val_dict['instructions_adj']
-
-
+    if {'ticks'}.issubset(val_dict):
+        val_dict['time_seconds'] = val_dict["ticks"]/1e6
+    if {'cycles', 'frontend_syscall_cycles'}.issubset(val_dict):
+        val_dict['sys_seconds'] = val_dict['frontend_syscall_cycles']/50e6
+        val_dict['user_seconds'] = (val_dict['cycles'] - val_dict['frontend_syscall_cycles'])/50e6
+    if {'frontend_syscalls'}.issubset(val_dict):
+        val_dict['context-switches'] = val_dict["frontend_syscalls"]
 
 for op in options:
     op_dict = {}
-    dir_name = f"output-{op}/"
+    dir_name = f"results/output-{op}/"
     for file_name in os.listdir(dir_name):
         test_dict = {}
         if file_name.endswith(".perf"):
@@ -148,14 +168,14 @@ print(sorted(value_types))
 bar_width = 1/(len(options)+1)
 x_pos = np.arange(len(tests))
 for val in plot_values:
-    fig = plt.figure(figsize=(8,4))
+    fig = plt.figure(figsize=(16,8))
     ax = plt.gca()
     for nr, op in enumerate(options):
         y = []
         for test in tests:
             y.append(values.get(op,{}).get(test, {}).get(val, 0))
         ax.bar(x_pos - 0.5+(nr+0.5)*bar_width, y, width=bar_width,
-               align='edge', alpha=1, ecolor='black', capsize=10, label=op)
+               align='edge', alpha=1, ecolor='black', capsize=10, label=op.replace(".bit", ""))
     ax.set_xticks(x_pos)
     ax.set_xticklabels(tests)
     ax.set_ylabel(val)
@@ -163,7 +183,7 @@ for val in plot_values:
     plt.xlim([-0.5,len(tests)-.5])
     ax.legend()
     fig.tight_layout()
-    plt.savefig(f"{val}.png")
+    plt.savefig(f"{val}.pdf")
     plt.show()
 
 for percentage_target in stack_targets:
@@ -175,7 +195,7 @@ for percentage_target in stack_targets:
             y = []
             for test in tests:
                 y.append(values.get(percentage_target,{}).get(test, {}).get(layer, 0))
-            plt.bar(x, y, bottom=previous, label=layer,)
+            plt.bar(x, y, bottom=previous, label=layer.replace(".bit", ""),)
             previous = [a+b for a,b in zip(previous, y)]
         ax = plt.gca()
         ax.legend()
